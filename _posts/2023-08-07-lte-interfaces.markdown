@@ -40,7 +40,7 @@ Interface	Description	Technical Specification (TS)
 | SWu             | Interface between MME and Wi-Fi Access Gateway   | [3GPP TS 23.402](https://www.3gpp.org/ftp/Specs/archive/23_series/23.402/)                        |
 | S13             | Interface for MME to MME handover                | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
 | S12             | Interface for MME relocation                    | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
-
+{: .table .table-striped .table-hover}
 
 <div class="">
   <ins class="adsbygoogle"

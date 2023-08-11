@@ -31,4 +31,4 @@ For a penetration tester, AD presents a unique challenge and opportunity to unco
 | S-GW (Serving Gateway) for EPC | Core network element handling user data and mobility in EPC architecture | Ericsson, Huawei  |
 | P-GW (PDN Gateway) for EPC | Core network element interfacing between LTE network and external networks in EPC architecture | Nokia, Cisco      |
 | MME (Mobility Management Entity) for EPC | Core network element managing UE mobility and signaling in EPC architecture | ZTE, Samsung      |
-
+{: .table .table-striped .table-hover}

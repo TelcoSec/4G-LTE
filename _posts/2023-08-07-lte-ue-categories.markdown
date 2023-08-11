@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Linux for Pentesters"
+title:  "LTE UE Categories"
 date:   2023-08-07 10:51:47 +0530
 image: /images/Linux.png
-categories: [Pentesting, Linux]
+categories: [4G, LTE,UE]
 ---
 Linux is a popular and powerful choice for penetration testers and ethical hackers due to its flexibility, customization options, and a wide range of security tools available. Here are a few Linux distributions (distros) specifically designed for penetration testing and ethical hacking purposes:
 
-## Networking Essentials
+## LTE UE Categories
 
 - OSI Model: Understanding the layered architecture helps in pinpointing vulnerabilities at various levels.
 - Protocols: In-depth knowledge of TCP/IP and other network protocols is essential for accurate analysis.
@@ -16,14 +16,7 @@ Linux is a popular and powerful choice for penetration testers and ethical hacke
 
 <div class="alert alert-dismissible alert-success">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Warning!</h4>
+  <h4>LTE UE Devices</h4>
   <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
 </div>
-
-## Ethical Guidelines
-
-- Permission: Always obtain written consent from the organization before initiating any pentesting activities.
-- Scope: Define the scope of testing, outlining the assets and areas that can be assessed.
-- Reporting: Document all findings accurately and promptly, assisting the organization in addressing vulnerabilities.
-
 

@@ -15,22 +15,31 @@ You will gain a deep understanding of how data flows through networks, how devic
 </div>
 
 ## LTE Interfaces
-- S1-MME :- Reference point for the control plane protocol between E-UTRAN and MME.
-- S1-U:- Reference point between E-UTRAN and Serving GW for the per bearer user plane tunnelling and inter eNodeB path switching during handover.
-- S3:- It enables user and bearer information exchange for inter 3GPP access network mobility in idle and/or active state.
-- S4:- It provides related control and mobility support between GPRS Core and the 3GPP Anchor function of Serving GW. In addition, if Direct Tunnel is not established, it provides the user plane tunnelling.
-- S5:- It provides user plane tunnelling and tunnel management between Serving GW and PDN GW. It is used for Serving GW relocation due to UE mobility and if the Serving GW needs to connect to a non-collocated PDN GW for the required PDN connectivity.
-- S6a:- It enables transfer of subscription and authentication data for authenticating/authorizing user access to the evolved system (AAA interface) between MME and HSS.
-- Gx:- It provides transfer of (QoS) policy and charging rules from PCRF to Policy and Charging Enforcement Function (PCEF) in the PDN GW.
-- S8:- Inter-PLMN reference point providing user and control plane between the Serving GW in the VPLMN and the PDN GW in the HPLMN. S8 is the inter PLMN variant of S5.
-- S9:- It provides transfer of (QoS) policy and charging control information between the Home PCRF and the Visited PCRF in order to support local breakout function.
-- S10:- Reference point between MMEs for MME relocation and MME to MME information transfer.
-- S11:- Reference point between MME and Serving GW.
-- S12:- Reference point between UTRAN and Serving GW for user plane tunnelling when Direct Tunnel is established. It is based on the Iu-u/Gn-u reference point using the GTP-U protocol as defined between SGSN and UTRAN or respectively between SGSN and GGSN. Usage of S12 is an operator configuration option.
-- S13:- It enables UE identity check procedure between MME and EIR.
-- SGi:- It is the reference point between the PDN GW and the packet data network. Packet data network may be an operator external public or private packet data network or an intra operator packet data network, e.g. for provision of IMS services. This reference point corresponds to Gi for 3GPP accesses.
-- Rx:- The Rx reference point resides between the AF and the PCRF in the TS 23.203.
-- SBc:- Reference point between CBC and MME for warning message delivery and control functions.
+
+
+Interface	Description	Technical Specification (TS)
+
+| Interface       | Description                                       | Technical Specification (TS)                                           |
+|-----------------|---------------------------------------------------|-----------------------------------------------------------------------|
+| Uu              | Air Interface between UE and eNodeB              | [3GPP TS 36.300](https://www.3gpp.org/ftp/Specs/archive/36_series/36.300/)                        |
+| X2              | Interface between eNodeBs for intra-LTE handover | [3GPP TS 36.423](https://www.3gpp.org/ftp/Specs/archive/36_series/36.423/)                        |
+| S1-U            | User Plane Interface between eNodeB and Serving Gateway | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                  |
+| S1-MME          | Control Plane Interface between eNodeB and MME   | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| S6a             | Interface between MME and Home Subscriber Server | [3GPP TS 29.272](https://www.3gpp.org/ftp/Specs/archive/29_series/29.272/)                        |
+| S11             | Interface between MME and Serving Gateway        | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| S5              | Interface between Serving Gateway and PDN Gateway | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| SGi             | Interface between PDN Gateway and external Packet Data Network (PDN) | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)    |
+| S10             | Interface between MME and MME for MME handover   | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| S3              | Control and User Plane Separation Interface between MME and Serving Gateway | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/) |
+| S4              | Interface between MME and Serving GW for MBMS     | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| S8              | Interface between Serving GWs in different PLMNs | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| Rx              | Interface for policy and charging control        | [3GPP TS 29.214](https://www.3gpp.org/ftp/Specs/archive/29_series/29.214/)                        |
+| Cx/Dx           | Interface between IMS entities for user profile and registration | [3GPP TS 29.228](https://www.3gpp.org/ftp/Specs/archive/29_series/29.228/) |
+| S2a             | Interface between UE and PDN Gateway for non-3GPP access | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                  |
+| S9              | Interface for MME change during handover         | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| SWu             | Interface between MME and Wi-Fi Access Gateway   | [3GPP TS 23.402](https://www.3gpp.org/ftp/Specs/archive/23_series/23.402/)                        |
+| S13             | Interface for MME to MME handover                | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
+| S12             | Interface for MME relocation                    | [3GPP TS 23.401](https://www.3gpp.org/ftp/Specs/archive/23_series/23.401/)                        |
 
 
 <div class="">
@@ -44,4 +53,3 @@ You will gain a deep understanding of how data flows through networks, how devic
   (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
-

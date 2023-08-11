@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-8">
+    <article class="post">
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+      </header>
+      <div class="jumbotron">
+        <h1>Jumbotron</h1>
+        <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+      </div>
+      <div class="post-content">{{ content }}</div>
+    </article>
+  </div>
+  {% include sidebar.html %}
+</div>
+
+{% include fb-script.html %}

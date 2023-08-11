@@ -1,0 +1,61 @@
+<div class="col-md-4 mt20">
+  <div class="post-img">
+    {% if page.image %}
+    <img
+      width="600"
+      class="rounded"
+      src="{{page.image | relative_url}}"
+      alt="{{page.title}}"
+    />
+    {% endif %}
+  </div>
+  <div class="mt10">
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-9236847887178276"
+    data-ad-slot="3574961776"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
+  <div class="mt10 recent">
+    <h2>Recent articles</h2>
+    <ul>
+      {% for post in site.related_posts limit:3 %}
+
+      <li>
+        <p>
+          <a href="{{ post.url  | relative_url }}">{{ post.title }}</a
+          ><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small>
+        </p>
+      </li>
+
+      {% endfor %}
+    </ul>
+  </div>
+  {% if site.fb-like-box %}
+  <div class="mt10">
+    <div
+      class="fb-page"
+      data-href="https://www.facebook.com/PopLabResearch"
+      data-width="400"
+      data-small-header="true"
+      data-adapt-container-width="true"
+      data-hide-cover="true"
+      data-show-facepile="true"
+    >
+      <blockquote
+        cite="https://www.facebook.com/PopLabResearch"
+        class="fb-xfbml-parse-ignore"
+      >
+        <a href="{{site.fb-page-url}}">{{site.fb-page-title}}</a>
+      </blockquote>
+    </div>
+  </div>
+  {% endif %}
+  <br />
+</div>
+
+

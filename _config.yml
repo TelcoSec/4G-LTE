@@ -1,0 +1,65 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: PopDocs Cyber Docs
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  PopDocs is a Free Cyber security content.
+  
+  
+#baseurl: "/cards" # the subpath of your site, e.g. /blog
+url: "https://popdocs.net/" # the base hostname & protocol for your site
+
+#sidebar
+default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+
+built-by: rfs
+
+copyright:
+   name: PopDocs
+   link: 'https://popdocs.net/'
+
+# Build settings
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+
+# Tracker
+analytics: G-WB8YYH3WJK
+
+# Comments
+disqus: yes
+disqus-shortname: poplab
+
+#social
+facebook: https://www.facebook.com/PopLabResearch
+quora: http://quora.com/
+twitter: http://twitter.com/
+github: http://github.com/
+email: your@email.com
+
+#facebook like box
+fb-like-box: yes
+fb-app-id: xxxxxxxx
+fb-page-url: https://www.facebook.com/PopLabResearch
+fb-page-title: PopLabResearch
+
+# Sass style
+sass:
+  style: compressed
+
+# google News
+publisher: "PopLab Agency"
+# Ruby Gems
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-news-sitemap
+

@@ -10,43 +10,27 @@ You will gain a deep understanding of how data flows through networks, how devic
 
 <div class="alert alert-dismissible alert-success">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Becoming a Network Pentester!</h4>
+  <h4>Learn 4G Security!</h4>
   <p>To excel in network pentesting, a combination of technical skills, problem-solving abilities, and a curious mindset is essential. The path to becoming a skilled network pentester involves continuous learning, hands-on experience, and a commitment to staying updated with the latest security trends and techniques.</p>
 </div>
 
-## Networking Basics
-Networking basics involve understanding how devices such as computers, routers, switches, and servers communicate and share information within a network. 
-
-This includes comprehending the fundamental concepts like IP addresses, which uniquely identify devices on a network, and subnetting, which segments large networks into smaller, manageable parts. 
-
-Additionally, knowledge of protocols like TCP/IP, which govern data exchange across networks, and the OSI model, which categorizes network functions into distinct layers, is essential. 
-
-Understanding concepts such as LANs (Local Area Networks) and WANs (Wide Area Networks), as well as grasping the significance of routing, switching, and firewalls in directing and securing data traffic, forms the core of networking basics. 
-
-This foundation is pivotal for various roles, including network administrators, cybersecurity professionals, and penetration testers, as it underpins effective communication and safeguards against potential threats in the digital realm.
-
-## Recommendations
-
-| Name   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-{: .table .table-striped .table-hover}
-
-
-## Dissecting OSI Model
-
-| OSI Layer | Layer Name                  | Description                                                                                                                                                                                                                      |
-|-----------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 7         | Application Layer           | Responsible for providing network services directly to end-users or applications. It includes protocols for tasks like file transfer, email, remote access, and more.                                                        |
-| 6         | Presentation Layer          | Focuses on data translation, encryption, and compression to ensure data is presented in a usable format. It deals with formatting, encryption, and data compression for efficient transmission.                                |
-| 5         | Session Layer               | Manages and maintains communication sessions between devices. It establishes, manages, and terminates connections, allowing data exchange in an organized and synchronized manner.                                     |
-| 4         | Transport Layer             | Manages end-to-end communication and ensures data delivery with error detection and correction. It breaks down larger messages into smaller segments and handles sequencing and flow control.                                |
-| 3         | Network Layer               | Responsible for routing data between different networks. It determines the optimal path for data packets to travel from source to destination and handles logical addressing and subnetting.                              |
-| 2         | Data Link Layer             | Focuses on reliable point-to-point communication within a network segment. It encapsulates data into frames, handles physical addressing, error detection, and flow control, ensuring data link reliability.                 |
-| 1         | Physical Layer              | Deals with the physical medium of communication, including cables, switches, and electrical signals. It defines the hardware and transmission methods needed to transmit raw bits over a physical medium.                    |
-{: .table .table-striped .table-hover}
+## LTE Interfaces
+- S1-MME :- Reference point for the control plane protocol between E-UTRAN and MME.
+- S1-U:- Reference point between E-UTRAN and Serving GW for the per bearer user plane tunnelling and inter eNodeB path switching during handover.
+- S3:- It enables user and bearer information exchange for inter 3GPP access network mobility in idle and/or active state.
+- S4:- It provides related control and mobility support between GPRS Core and the 3GPP Anchor function of Serving GW. In addition, if Direct Tunnel is not established, it provides the user plane tunnelling.
+- S5:- It provides user plane tunnelling and tunnel management between Serving GW and PDN GW. It is used for Serving GW relocation due to UE mobility and if the Serving GW needs to connect to a non-collocated PDN GW for the required PDN connectivity.
+- S6a:- It enables transfer of subscription and authentication data for authenticating/authorizing user access to the evolved system (AAA interface) between MME and HSS.
+- Gx:- It provides transfer of (QoS) policy and charging rules from PCRF to Policy and Charging Enforcement Function (PCEF) in the PDN GW.
+- S8:- Inter-PLMN reference point providing user and control plane between the Serving GW in the VPLMN and the PDN GW in the HPLMN. S8 is the inter PLMN variant of S5.
+- S9:- It provides transfer of (QoS) policy and charging control information between the Home PCRF and the Visited PCRF in order to support local breakout function.
+- S10:- Reference point between MMEs for MME relocation and MME to MME information transfer.
+- S11:- Reference point between MME and Serving GW.
+- S12:- Reference point between UTRAN and Serving GW for user plane tunnelling when Direct Tunnel is established. It is based on the Iu-u/Gn-u reference point using the GTP-U protocol as defined between SGSN and UTRAN or respectively between SGSN and GGSN. Usage of S12 is an operator configuration option.
+- S13:- It enables UE identity check procedure between MME and EIR.
+- SGi:- It is the reference point between the PDN GW and the packet data network. Packet data network may be an operator external public or private packet data network or an intra operator packet data network, e.g. for provision of IMS services. This reference point corresponds to Gi for 3GPP accesses.
+- Rx:- The Rx reference point resides between the AF and the PCRF in the TS 23.203.
+- SBc:- Reference point between CBC and MME for warning message delivery and control functions.
 
 
 <div class="">

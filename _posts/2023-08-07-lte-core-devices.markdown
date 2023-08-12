@@ -34,6 +34,17 @@ For a penetration tester, AD presents a unique challenge and opportunity to unco
 | MME (Mobility Management Entity) for EPC | Core network element managing UE mobility and signaling in EPC architecture | ZTE, Samsung      |
 {: .table .table-striped .table-hover}
 
+<div class="">
+  <ins class="adsbygoogle"
+  style="display:block; text-align:center;"
+  data-ad-layout="in-article"
+  data-ad-format="fluid"
+  data-ad-client="ca-pub-9236847887178276"
+  data-ad-slot="9402003525"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 ## eNodeB (Evolved NodeB)
 An eNodeB is a fundamental component of an LTE network. It serves as the base station that communicates with User Equipment (UE), managing the radio interface and providing the essential wireless connectivity for data and voice transmission.

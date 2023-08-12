@@ -16,6 +16,17 @@ You will gain a deep understanding of how data flows through networks, how devic
 
 ## LTE Interfaces
 
+<div class="">
+  <ins class="adsbygoogle"
+  style="display:block; text-align:center;"
+  data-ad-layout="in-article"
+  data-ad-format="fluid"
+  data-ad-client="ca-pub-9236847887178276"
+  data-ad-slot="9402003525"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 Interface	Description	Technical Specification (TS)
 

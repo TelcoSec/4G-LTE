@@ -20,3 +20,15 @@ Linux is a popular and powerful choice for penetration testers and ethical hacke
   <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
 </div>
 
+
+<div class="">
+  <ins class="adsbygoogle"
+  style="display:block; text-align:center;"
+  data-ad-layout="in-article"
+  data-ad-format="fluid"
+  data-ad-client="ca-pub-9236847887178276"
+  data-ad-slot="9402003525"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
